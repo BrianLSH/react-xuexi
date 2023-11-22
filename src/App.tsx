@@ -6,7 +6,7 @@ import nameData from './mockData/test.json';
 function App() {
   return (
    <div>
-     {nameData.map(item => <ShowName id={item.id} name={item.name}></ShowName>)}
+     {nameData.map(item => <ShowName id={item.id} name={item.name} skills={item.skill}></ShowName>)}
    </div>
   );
 }
