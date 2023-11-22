@@ -1,15 +1,12 @@
 import React from 'react';
 interface nameProps {
-    // id: string,
     id: number,
-    name:string
+    name:string,
+    skills:string
 }
-const ShowName:React.FC<nameProps> = ({id,name})=>{
-    // 可以直接解构 prop
-    // const id = props.id;
-    // const name = props.name;
+const ShowName:React.FC<nameProps> = ({id,name,skills})=>{
     return (
-        <div>兄弟们</div>
+        <div>{id}------{name}-------{skills}</div>
     )
 }
 export default ShowName
