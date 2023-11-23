@@ -1,0 +1,11 @@
+.letterColor {
+    font-size: 30px;
+    font-weight: bold;
+    color: red
+}
+
+.sort {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
